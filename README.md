@@ -12,4 +12,4 @@ make a curl request
 ```
 curl http://localhost:5000/
 ```
-Why i do this? Because i'm looking for an alternative high performance of usgi?
+Why i do this? Because i'm looking for an alternative high performance of uwsgi?
