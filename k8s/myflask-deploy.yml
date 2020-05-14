@@ -19,4 +19,9 @@ spec:
         image: biennt/myflask
         ports:
         - containerPort: 5000
+        resources:
+          limits:
+            cpu: 100m
+          requests:
+            cpu: 50m
 
