@@ -1,15 +1,15 @@
 {
     "listeners": {
         "*:5000": {
-            "pass": "applications/myflask"
+            "pass": "applications/unitflask"
         }
     },
 
     "applications": {
-        "myflask": {
+        "unitflask": {
             "type": "python",
-            "path": "/myflask/",
-            "home": "/myflask/venv/",
+            "path": "/unitflask/",
+            "home": "/unitflask/venv/",
             "module": "wsgi"
         }
     }
