@@ -2,11 +2,11 @@
 This is a hello world Flask app with Nginx Unit
 Clone it then build the container image
 ```
-docker build -t myflask .
+docker build -t unitflask .
 ```
 Then
 ```
-docker run -d --name myflask -v 5000:5000 myflask
+docker run -d --name myflask -p 5000:5000 unitflask
 ```
 make a curl request
 ```
